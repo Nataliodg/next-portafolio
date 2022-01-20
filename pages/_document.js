@@ -5,11 +5,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-<<<<<<< HEAD
-=======
-
->>>>>>> b8967609a9c7d2ecf291ac9f09121c9089210d19
-          <meta name="description" content="Natalio Di giacomo Portafolio Website" />
           <meta name="description" content="Natalio Di Giacomo Portafolio Website" />
           {/* Nprogress css */}
           <link
