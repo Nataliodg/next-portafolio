@@ -39,12 +39,23 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
       0 7px 0 #222, 
       0 22px 30px rgba(0, 0, 0, 0.9);
 }
+.links-style{
+  color: #202020;
+  letter-spacing: .1em;
+  text-shadow: 
+      -1px -1px 1px #111, 
+       2px 2px 1px #363636;
+}
+
 .more-style{
-	 color: #202020;
-    letter-spacing: .1em;
-    text-shadow: 
-     	-1px -1px 1px #111, 
-     	 2px 2px 1px #363636;
+	color: #e0dfdc;
+  letter-spacing: .1em;
+  text-shadow:  
+      0 1px 0 #2e2e2e, 
+      0 2px 0 #2c2c2c, 
+      0 3px 0 #2a2a2a, 
+
+      0 22px 30px rgba(0, 0, 0, 0.9);
 }
 
 .overflow{
@@ -69,3 +80,13 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	border-top-color: yellow;
 	border-left-color: blue;
 }
+
+@media screen and (max-width: 480px) {
+  .img-style{
+  height: 50%;
+  width: 100%;
+}
+}
+
+
+

@@ -16,7 +16,7 @@ const Github = ({user, statusCode}) => {
 				<div className="col-md-4 offset-md-4 ">	
 					<div className="card card-body text-center bg-dark text-light rounded">
 						<h1 className="fw-bolder">{user.name}</h1>
-						<img src={user.avatar_url} alt="" className="rounded-circle"/>
+						<img src={user.avatar_url} alt="" className="rounded-circle img-style"/>
 						<p className="text-light">{user.bio}</p>
 						<a href={user.blog} target="_blank" className="btn btn-outline-dark my-2 text-success border-success rounded-pill">Blog</a>
 						<a href={user.html_url} target="_blank" className="btn btn-outline-dark my-2 text-success border-success rounded-pill">GitHub</a>
