@@ -18,7 +18,7 @@ const Index = () => (
 						<div className="col-md-8">
 							<p className="intro-style ">
 							Hola, mi nombre es Natalio! Soy un apasionado de la tecnología, que busca siempre aprender y superarse. 
-							No tengo experiencia laboral pero estamos sumando experiencia con proyectos propios, hechales un vistazo! :) <br/><br/>
+							No tengo experiencia laboral pero estamos sumando experiencia con proyectos propios, échales un vistazo! :) <br/><br/>
 							Si te gustan, no dudes en contactarme! Saludos!</p>
 							<Link href="Contacto">
 								<a className="more-style nav-link text-success">Contacto</a>
