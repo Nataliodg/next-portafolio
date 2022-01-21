@@ -24,6 +24,11 @@ const Navbar = () => {
                   <a className="nav-link " >Github</a>
                 </Link> 
               </li>
+              <li className="nav-item">
+                <Link href="https://www.linkedin.com/in/natalio-di-giacomo/">
+                  <a className="nav-link " >LinkeIn</a>
+                </Link> 
+              </li>
             </ul>
           </div>
         </div>

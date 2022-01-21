@@ -20,8 +20,8 @@ const Index = () => (
 							Hola, mi nombre es Natalio! Soy un apasionado de la tecnología, que busca siempre aprender y superarse. 
 							No tengo experiencia laboral pero estamos sumando experiencia con proyectos propios, échales un vistazo! :) <br/><br/>
 							Si te gustan, no dudes en contactarme! Saludos!</p>
-							<Link href="Contacto">
-								<a className="more-style nav-link text-success">Contacto</a>
+							<Link href="form">
+								<a className="border-success rounded-pill more-style nav-link text-success ">Contacto</a>
 							</Link>	
 						</div>
 					</div>
