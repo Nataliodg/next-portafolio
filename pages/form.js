@@ -11,6 +11,34 @@ const Form = () => {
 	const [message, setMessage] = useState('')
 	const [submitted, setSubmitted] = useState(false)
 
+	const handleSubmit = (e) => { 
+		e.preventDefault()
+		console.log('Sending')
+			let data = {
+		    name,
+		    email,
+		    message
+		 }
+		fetch('/api/contact', {
+	    	method: 'POST',
+	    	headers: {
+	      	'Accept': 'application/json, text/plain, */*',
+	      	'Content-Type': 'application/json'
+	    },
+    		body: JSON.stringify(data)
+  		
+  		}).then((res) => {
+	    	console.log('Response received')
+	    if (res.status === 200) {
+	     	 console.log('Response succeeded!')
+	      	setSubmitted(true)
+	      	setName('')
+	      	setEmail('')
+	      	setBody('')
+	    }
+	  })
+}
+
 
 
 	return(
@@ -30,8 +58,8 @@ const Form = () => {
 					  <textarea type='text' onChange={(e)=>{setMessage(e.target.value)}} name='message'  className="form-control rounded" rows="4"></textarea>
 					</div>
 					<div className="mb-3 text-center">
-						<Link href="/">
-							<a className="btn btn-outline-dark border-success rounded-pill more-style nav-link text-success my-4 bg-dark" >Send</a>
+						<Link href="/form">
+							<a onClick={(e)=>{handleSubmit(e)}} className="btn btn-outline-dark border-success rounded-pill more-style nav-link text-success my-4 bg-dark" >Send</a>
 						</Link>	
 					</div>
 				</div>
