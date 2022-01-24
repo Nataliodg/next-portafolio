@@ -58,7 +58,7 @@ const Form = () => {
 					  <textarea type='text' onChange={(e)=>{setMessage(e.target.value)}} name='message'  className="form-control rounded" rows="4"></textarea>
 					</div>
 					<div className="mb-3 text-center">
-						<Link href="/form">
+						<Link href="formok">
 							<a onClick={(e)=>{handleSubmit(e)}} className="btn btn-outline-dark border-success rounded-pill more-style nav-link text-success my-4 bg-dark" >Send</a>
 						</Link>	
 					</div>

@@ -29,6 +29,7 @@ const Layout = ({children, footer = true}) => {
 	return(
 		<>
 		<Head>
+      <link rel="shortcut icon" href="/cerebro.png"/>
 			<title>Portafolio</title>
 		</Head>
 		<Navbar/>
