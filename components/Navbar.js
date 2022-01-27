@@ -21,7 +21,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link href="github">
-                  <a className="nav-link " >Github</a>
+                  <a className="nav-link " >GitHub</a>
                 </Link> 
               </li>
               <li className="nav-item">
