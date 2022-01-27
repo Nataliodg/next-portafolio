@@ -26,7 +26,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item">
                 <Link href="https://www.linkedin.com/in/natalio-di-giacomo/">
-                  <a className="nav-link " >LinkeIn</a>
+                  <a className="nav-link " >LinkedIn</a>
                 </Link> 
               </li>
             </ul>
