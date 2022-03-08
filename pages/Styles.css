@@ -26,10 +26,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .portafolio-style{
-	color: #e0dfdc;
+	color: #49FF00;
     letter-spacing: .1em;
     text-shadow: 
-      0 -1px 0 #fff, 
+      0 -1px 0 #2e2e2e, 
       0 1px 0 #2e2e2e, 
       0 2px 0 #2c2c2c, 
       0 3px 0 #2a2a2a, 
@@ -45,6 +45,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   text-shadow: 
       -1px -1px 1px #111, 
        2px 2px 1px #363636;
+}
+
+.links-style2:hover {
+  color: #06FF00;
 }
 
 .more-style{
@@ -73,12 +77,12 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 #nprogress .bar{
-	background: green;
+	background: #49FF00;
 }
 
 #nprogress .spinner-icon{
 	border-top-color: yellow;
-	border-left-color: blue;
+	border-left-color: #49FF00;
 }
 
 @media screen and (max-width: 480px) {
@@ -87,6 +91,43 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   width: 100%;
 }
 }
+
+
+/* PORTAFOLIO SECTION */
+
+
+
+.project {
+    color: white;
+    height: 100%;
+    text-decoration:  none;
+    text-align: center;
+    background: #1F1D36;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+}
+
+.code {
+    color: #1F1D36;
+    transition: color 0.3s ease-out;
+}
+
+.project:hover .code {
+    color: #49FF00;
+}
+
+.project-image {
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.project-title {
+    font-size: 20px;
+    padding: 20px 5px;
+}
+
+
 
 
 

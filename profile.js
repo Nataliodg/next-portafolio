@@ -43,46 +43,33 @@ export const skills=[
 
 export const projects = [
 	{
-		name: 'Sitio Web (Flexbox)',
-		description: 'Sitio Web aplicando Flexbox y totalmente responsive.',
-		image: "project1.png",
-		link:'https://nataliodg.github.io/Sitio-Web-Flexbox-/',
-		link2:'https://github.com/Nataliodg/Sitio-Web-Flexbox-'
+		name: 'Formulario de Consulta',
+		image: "project9.png",
+		link:'https://nataliodg.github.io/Forum-CodeNoLimit/',
 	},
 	{
-		name: 'Sitio Web Empresa',
-		description: 'Desarrollado con Html, Css y Js. Totalmente responsive. El envio del formulario se realiza con Php.',
+		name: 'Company Web Page',
 		image: "project2.png",
 		link:'https://nataliodg.github.io/Sitio-Web-1/',
-		link2:'https://github.com/Nataliodg/Sitio-Web-1'
 	},
 	{
 		name: 'Sitio Web (Bootstrap)',
-		description: 'Sitio Web realizado con Bootstrap y totalmente responsive.',
 		image: "project3.png",
 		link:'https://nataliodg.github.io/Sitio-Web-Bootstrap/',
-		link2:'https://github.com/Nataliodg/Sitio-Web-Bootstrap'
 	},
 	{
-		name: 'Web Page (Grid)',
-		description: 'Landing page. Desarrollado con HTML y CSS grid',
-		image: "project4.png",
-		link:'https://nataliodg.github.io/Web-Page-Grid/',
-		link2:'https://github.com/Nataliodg/Web-Page-Grid'
+		name: 'Portafolio Page',
+		image: "project7.png",
+		link:'https://nataliodg.github.io/Portafolio-Page/#projects',
 	},
 	{
 		name: 'Blog',
-		description: 'Desarrollado con CSS y HTML',
 		image: "project5.png",
 		link:'https://nataliodg.github.io/PtojectNews/',
-		link2:'https://github.com/Nataliodg/PtojectNews'
 	},
 	{
-		name: 'Próximamente',
-		description: '',
-		image: "React1.png",
-		link:'/',
-		link2:'/'
-
+		name: 'Technical Page',
+		image: "project6.png",
+		link:'https://nataliodg.github.io/Technical-Page/',
 	},
 ]

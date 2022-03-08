@@ -41,9 +41,9 @@ const Layout = ({children, footer = true}) => {
 			footer && (
 					<footer className="bg-dark text-dark text-center links-style">
 						<div className="container p-2">
-							<h5> &copy; Di Giacomo Natalio</h5>
-							<p className="ms-auto">2020 - {new Date().getFullYear()}</p>
-							<p>All rights Reserverd.</p>
+							<h5 className="links-style2"> &copy; Di Giacomo Natalio</h5>
+							<p className="links-style2 ms-auto">2020 - {new Date().getFullYear()}</p>
+							<p className="links-style2">All rights Reserverd.</p>
 						</div>
 					</footer>
 			)

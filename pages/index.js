@@ -59,41 +59,34 @@ const Index = () => (
 		</div>
 
 		{/**Card Layout**/}
-		<div className="row">
+		<div id="portafolio"className="row">
 			<div className="col-md-12">
 				<div className="card card-body bg-dark bg-opacity-75">
-					<div className="row">
+					<div className="row ">
 						<div className="col-md-12">
 							<h1 className="text-center text-success portafolio-style">Portafolio</h1>
-						</div>
+						</div >
 						{
-							projects.map(({name,description,image,link,link2}, i) => (
-							<div className="col-md-4 p-2 text-light " key={i}>
-								<div className="card h-100 bg-dark border-dark border rounded border-5">
-									<div className="overflow">
-										<img src={`/${image}`} alt="" className="card-img-top"/>
-									</div>
-									<div className="card-body">
-										<h4 className="fw-bolder">{name}</h4>
-										<p>{description}</p>
-										<div class="btn-group" role="group">
-									    <button id="btnGroupDrop1" type="button" className="more-style dropdown-toggle btn-dark text-success rounded-pill border border-dark" data-bs-toggle="dropdown" aria-expanded="false">
-									    More</button>
-									    <ul className="text-center dropdown-menu bg-dark rounded" aria-labelledby="btnGroupDrop1">
-									    	<Link href={link} >
-												<a className="nav-link text-success links-style">Visit Website</a>
-											</Link>
-											<Link href={link2} >
-												<a className="nav-link text-success links-style">Repository</a>
-											</Link>
-									    </ul>
-									  </div>
-										
-									</div>
-								</div>
-							</div>
+							projects.map(({name,image,link}, i) => (
+							<div className="col-md-4 p-2 text-light" key={i}>
+                                <div className="card h-100 bg-dark border-dark border rounded border-5">
+									<a href={link} target="_blank" class="project project-tile">
+		                    			<img className="project-image" src={`/${image}`} alt="project" />
+		                    			<p className="project-title">
+		                        			<span className="code">&lt;</span>
+		                       					{name}
+		                        			<span className="code">&#47;&gt;</span>
+		                    			</p>
+		                			</a>
+                			</div>
+                			</div>
 							))
 						}
+					<a href="/" className="project project-title" target="_blank">
+						<span className="code">&lt;</span>
+		                    Proximamente..
+		                <span className="code">&#47;&gt;</span>
+					</a>
 					</div>
 				</div>
 			</div>
