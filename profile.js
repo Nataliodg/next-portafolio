@@ -17,7 +17,7 @@ export const skills=[
 	},
 	{
 		skill: 'Next.js',
-		percentage:45,
+		percentage:60,
 	},
 	{
 		skill: 'MySQL',
@@ -25,7 +25,7 @@ export const skills=[
 	},
 	{
 		skill: 'MongoDB',
-		percentage:40,
+		percentage:60,
 	},
 	{
 		skill: 'Git y GitHub',
@@ -68,8 +68,8 @@ export const projects = [
 		link:'https://nataliodg.github.io/PtojectNews/',
 	},
 	{
-		name: 'Technical Page',
-		image: "project6.png",
-		link:'https://nataliodg.github.io/Technical-Page/',
+		name: 'Tasks App',
+		image: "Next-Mongodb.png",
+		link:'https://next-mongodb-semantic-iu.vercel.app/',
 	},
 ]
