@@ -58,9 +58,9 @@ export const projects = [
 		link:'https://nataliodg.github.io/Sitio-Web-Bootstrap/',
 	},
 	{
-		name: 'Portafolio Page',
+		name: 'Parallax Page',
 		image: "project7.png",
-		link:'https://nataliodg.github.io/Portafolio-Page/#projects',
+		link:'https://nataliodg.github.io/Parallax-Scrolling-Page/',
 	},
 	{
 		name: 'Blog',
