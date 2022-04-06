@@ -11,7 +11,7 @@ const Form = () => {
 	const [message, setMessage] = useState('')
 	const [submited, setSubmitted] = useState(false)
 
-	const handleSubmit = (e) => { 
+	const handleSubmit =  async (e) => { 
 		e.preventDefault()
 		console.log('Sending')
 			let data = {
@@ -28,6 +28,8 @@ const Form = () => {
     		body: JSON.stringify(data),
 
   		});
+		await push('formok');
+
 }
 
 
