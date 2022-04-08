@@ -8,7 +8,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 .formulario {
 	min-width: 600px;
 	margin-top: 50px;
-	background: #fff;
+	background: black;
 	border-radius: 5px;
 	padding: 20px;
 	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -35,7 +35,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	font-size: 18px;
 	padding: 10px;
 	margin-bottom: 5px;
-	color: #1f1f1f;
+	color: white;
 }
 
 .formulario input:focus {
@@ -43,15 +43,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	border: 2px solid #0085FF;
 }
 
-.formulario .error {
-	color: #e92b2d;
-	font-weight: 600;
-	font-size: 12px;
-}
 
 .formulario button[type="submit"] {
 	display: block;
-	background: #0085FF;
+	background: green;
 	font-weight: 600;
 	font-family: 'Open Sans', sans-serif;
 	border: none;
@@ -65,7 +60,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .formulario button[type="submit"]:hover {
-	background: #0051ff;
+	background: #06FF00;
 }
 
 

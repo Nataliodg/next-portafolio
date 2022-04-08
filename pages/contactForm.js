@@ -9,7 +9,7 @@ const ContactForm = () => {
 
 
 	return(
-		<Layout footer={true}>
+		<Layout footer={false}>
 			<form action="https://submit-form.com/21WJU6nd" className="formulario">
 			<input
     			type="hidden"
