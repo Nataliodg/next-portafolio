@@ -70,7 +70,7 @@ const Index = () => (
 							projects.map(({name,image,link}, i) => (
 							<div className="col-md-4 p-2 text-light" key={i}>
                                 <div className="card h-100 bg-dark border-dark border rounded border-5">
-									<a href={link} target="_blank" class="project project-tile">
+									<a href={link} target="_blank" class="project project-title">
 		                    			<img className="project-image" src={`/${image}`} alt="project" />
 		                    			<p className="project-title">
 		                        			<span className="code">&lt;</span>
