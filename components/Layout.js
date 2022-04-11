@@ -29,8 +29,8 @@ const Layout = ({children, footer = true}) => {
 	return(
 		<>
 		<Head>
-      <link rel="shortcut icon" href="/cerebro.png"/>
-			<title>Portafolio</title>
+    <link rel="shortcut icon" href="/cerebro.png"/>
+			<title>Natalio Di Giacomo</title>
 		</Head>
 		<Navbar/>
 			<main className="container py-4 pt-1">
@@ -41,9 +41,9 @@ const Layout = ({children, footer = true}) => {
 			footer && (
 					<footer className="bg-dark text-dark text-center links-style">
 						<div className="container p-2">
-							<h5 className="links-style2"> &copy; Di Giacomo Natalio</h5>
-							<p className="links-style2 ms-auto">2020 - {new Date().getFullYear()}</p>
-							<p className="links-style2">All rights Reserverd.</p>
+							<h5 className="links-style2 links-style"> &copy; Di Giacomo Natalio</h5>
+							<p className="links-style2 links-style ms-auto">2020 - {new Date().getFullYear()}</p>
+							<p className="links-style2 links-style">All rights Reserverd.</p>
 						</div>
 					</footer>
 			)
