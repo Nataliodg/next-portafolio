@@ -55,7 +55,7 @@ export const projects = [
 	{
 		name: 'Sitio Web (Bootstrap)',
 		image: "project3.png",
-		link:'https://nataliodg.github.io/Sitio-Web-Bootstrap/',
+		link:'https://nataliodg.github.io/Sitio-Web-Bootstrap2.0/',
 	},
 	{
 		name: 'Parallax Page',
