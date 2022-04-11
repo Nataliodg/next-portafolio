@@ -64,8 +64,8 @@ export const projects = [
 	},
 	{
 		name: 'Blog',
-		image: "project5.png",
-		link:'https://nataliodg.github.io/PtojectNews/',
+		image: "Blog-Page.png",
+		link:'https://nataliodg.github.io/Ptoject-News-2.0/',
 	},
 	{
 		name: 'Tasks App',
